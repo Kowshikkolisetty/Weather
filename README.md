@@ -16,6 +16,6 @@ if response.status_code == 200:
    print(f"Temperature: {temperature}")
    print(f"Humidity: {humidity}")
    print(f"Pressure: {pressure}")
-   print(f"Weather Report: {report[0]['description']}")
+   print(f"Weather Report: {report[0] ['description']}")
 else:
    print("Error in the HTTP request")
